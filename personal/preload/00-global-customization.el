@@ -7,15 +7,3 @@
 
 ;; Hide menu bar
 (menu-bar-mode -1)
-
-;; Added packages
-
-;; (require 'dashboard)
-;; (require 'helpful)
-
-(require 'prelude-packages)
-(prelude-require-packages
- '(dashboard
-   helpful))
-
-(dashboard-setup-startup-hook)
